@@ -16,6 +16,7 @@ https://github.com/UnityTechnologies/open-project-1
 ## Current Limitations
 - You cannot change the volume of audio cue while it's playing
 - All audio cues play on the same mixer on the same group
+- Not able to change group volume
 
 ## Installation
 
