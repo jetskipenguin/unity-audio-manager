@@ -10,14 +10,18 @@ Reusable Audio Manager Package
 - Input the git url.
 
 **This package has a dependency on the following package:** <br>
+```
 https://github.com/Thundernerd/Unity3D-SerializableInterface
+```
 
 This package can be installed via the same method.
 
 ## Scripts
 
 Various examples can be found in: <br>
+```
 AudioManager/Samples/
+```
 
 <br>
 
@@ -79,14 +83,14 @@ public class PlayingSoundExample : MonoBehaviour
 	{
 		if (Input.GetKeyDown(KeyCode.M))
 		{
-      // stops audio cue
+      			// stops audio cue
 			_musicEventChannel.RaiseStopEvent(_musicKey);
 		}
 	}
 
 	private void PlayMusic()
 	{
-    // plays audio cue
+    		// plays audio cue
 		_musicKey = _musicEventChannel.RaisePlayEvent(_musicSO, _audioConfig, transform.position);
 	}
 }
