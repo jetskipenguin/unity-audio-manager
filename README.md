@@ -1,6 +1,22 @@
 # unity-audio-manager
 Reusable Audio Manager Package
 
+Code and Ideas were borrowed from Unity's Open Project
+```
+https://github.com/UnityTechnologies/open-project-1
+```
+
+## Features
+- Create reusable audio configurations (pitch, volume, reverb, spread, etc)
+- Create audio cues with one or more audio clips that can play sequentially or randomly
+- Audio Source pool can help save memory when lots of audio sources are present.
+- Ability to instantiate audio cues from anywhere without needing a direct reference to the AudioManager
+
+
+## Current Limitations
+- You cannot change the volume of audio cue while it's playing
+- All audio cues play on the same mixer on the same group
+
 ## Installation
 
 - Click Window -> Package Manager
@@ -8,6 +24,8 @@ Reusable Audio Manager Package
 - In top left click the plus button, then "add package from git url"
 
 - Input the git url.
+  
+<br>
 
 **This package has a dependency on the following package:** <br>
 ```
